@@ -1,0 +1,19 @@
+.data__kososher__ {
+  background:linear-gradient(45deg, black, transparent);
+  border-radius: 25px;
+  width: 500px;
+  height: 250px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+.data__kososher__ > p:first-child {
+  font-size: 50px;
+  user-select: contain;
+}
+.data__kososher__ > p:nth-child(2) {
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  user-select: none;
+}
